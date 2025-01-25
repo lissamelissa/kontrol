@@ -156,3 +156,50 @@ p {
     padding-right: 60px;
     border-radius: 10px;
 }
+
+.but-node:hover {
+    background-color: #8f8f8f;
+}
+
+.but-gpu:hover {
+    background-color: #8f8f8f;
+}
+
+.but-con {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: -20px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.but-yel,.but-bla {
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+.but-bla {
+    background-color: #17161E;
+    color: white;
+    text-align: left;
+}
+
+.but-yel {
+    background-color: #E3FE0F;
+    text-align: left;
+}
+
+.but-yel p {
+    color: black !important;
+}
+
+.but-con button p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+

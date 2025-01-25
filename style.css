@@ -1,0 +1,83 @@
+body {
+    font-family: 'Neue Machina', sans-serif;
+    background-color: #17161E;
+    margin: 0 100px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-family: 'Poppins';
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #ffffffbb;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3vw;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 1.5vw;
+    font-size: 16px;
+}
+
+.left-header-cont {
+    width: 620px;
+    height: 55px;
+    background-color: #00000000;
+    border: 0.2px solid #e2fe0f6b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.left-header-cont img {
+    width: 180px;
+}
+
+.left-header-cont select {
+    width: 59px;
+    background-color: #00000000;
+    border: none;
+    font-family: 'Neue Machina', sans-serif;
+    color: #ffffffbb;
+}
+
+.left-header-cont a {
+    width: 59px;
+    background-color: #00000000;
+    font-family: 'Neue Machina', sans-serif;
+    color: #ffffffbb;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    height: 55px;
+    border: 0.2px solid #e2fe0f96;
+    background-color: #17161E;
+    color: #E3FE0F;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin: 0;
+}

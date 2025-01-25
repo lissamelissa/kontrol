@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Neue Machina';
+    src: url("fonts\PPNeueMachina-Free For Personal Use v1.2\PPNeueMachina-Regular.otf") format('truetype'); 
+    font-weight: normal; 
+    font-style: normal;]
+}
+
 body {
     font-family: 'Neue Machina', sans-serif;
     background-color: #17161E;
@@ -220,17 +227,116 @@ main .collumns {
 }
 
 
-  main .collumns ul{
-    list-style: none;
-    width: 270px;
-    padding: 0;
-  }
+main .collumns ul{
+list-style: none;
+width: 270px;
+padding: 0;
+}
 
 main .collumns ul li {
     margin-top: 10px;
 }
   
-  main .collumns .inf3 ul{
-    color:#E3FE0F;
-  }
+main .collumns .inf3 ul{
+color:#E3FE0F;
+}
   
+.tokenomics-wrapper {
+    position: relative;
+    padding: 40px 0;
+}
+
+.info-stripe {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #e5ff00;
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.top-stripe {
+    top: 20px;
+    transform: rotate(-2deg) scale(1.05); 
+}
+
+.bottom-stripe {
+    bottom: 20px;
+    transform: rotate(2deg) scale(1.05); 
+}
+
+.stripe-content {
+    white-space: nowrap;
+    color: #000000;
+    font-size: 16px; 
+    padding: 0 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px; 
+}
+
+.tokenomics-block {
+    margin-left: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 700px;
+    position: relative;
+    z-index: 1;
+}
+
+.section-title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: left; 
+}
+
+.info-grid {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0; 
+
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.05);
+    min-width: 0; 
+    border: 0.5px solid #ffffff;
+}
+
+.info-label {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.info-value {
+    background-color: #E3FE0F;
+    color: #000000;
+    font-weight: 600;
+    width: 120px;
+    text-align: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.address-row {
+    grid-column: 1 / -1; 
+}
+
+.address {
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+.copy-icon {
+    color: #e5ff00;
+    cursor: pointer;
+    margin-left: 10px;
+}
